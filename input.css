@@ -36,6 +36,18 @@
 #scrollButton:active {
     transform: scale(0.9);  
 }
+
+@media only screen and (max-width: 600px) { 
+  /* Styles for screens up to 600px wide (phones) */
+  .container {
+    width: 90%; /* Make the container more narrow */
+  }
+  .logo {
+    width: 50px; /* Reduce logo size */
+  }
+  /* Other mobile-specific styles */
+}
+
 /* for dark mode button  */
 body.dark {
     background-color: #121212;
